@@ -1,0 +1,140 @@
+/* Css File begin*/
+
+/*  text edits */
+body {
+    background-color: #f0f5f5; 
+    color: #1a202c; 
+    font-family: "Helvetica Neue", Arial, sans-serif; 
+    font-size: 17px;
+    line-height: 1.6; 
+    margin: 0; 
+}
+
+/* line spacing */
+h1, h2, h3 {
+    font-family: "Trebuchet MS", Verdana, sans-serif; 
+    letter-spacing: 0.5px; 
+}
+
+/* Customizing section headlines with accent rules underneath */
+h2 {
+    color: #005f73; 
+    border-bottom: 2px solid #b0d0d6; 
+    padding-bottom: 6px; 
+    margin-top: 2rem; 
+}
+
+/* Adding vertical spacing blocks globally between body paragraphs */
+p {
+    margin-bottom: 1.25rem; 
+}
+
+/*  Styling */
+.intro {
+    font-size: 1.2rem; 
+    font-style: italic;
+}
+
+/* Applying a custom color to "standard" bold text */
+strong {
+    color: #005f73; 
+}
+
+/* Global link styling */
+a {
+    color: #005f73; 
+    font-weight: bold; 
+    text-decoration: underline; 
+}
+
+/* Transition style triggers when a mouse cursor hovers over hyperlinked text */
+a:hover {
+    text-decoration: dashed; 
+}
+
+/* giving background to page header container */
+.site-header {
+    background-color: #005f73; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 3rem 1.5rem; 
+}
+
+/*  Makes the top headline display large */
+.site-header h1 {
+    font-size: 3rem; 
+    margin: 0 0 0.5rem 0; 
+}
+
+/* Capitalizes tagline values */
+.tagline {
+    font-size: 0.9rem; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    margin: 0; 
+}
+
+/* containing main readable page content inside a responsive grid column layout */
+.container {
+    max-width: 760px; 
+    margin: 0 auto; 
+    padding: 2rem 1.5rem;
+}
+
+/* Formatting a separate summary card panel component frame */
+.card {
+    background-color: #ffffff; 
+    border: 1px solid #c9d6ea;
+    border-left: 6px solid #005f73; 
+    border-radius: 8px; 
+    padding: 1.5rem;
+    margin: 2rem 0; 
+    box-shadow: 0 4px 12px rgba(31, 36, 48, 0.08);
+}
+
+/* Limiting unique context overrides only to h3 elements inside cards */
+.card h3 {
+    margin-top: 0; 
+    color: #005f73; 
+}
+
+/* Formatting link targets into standalone buttons */
+.button {
+    display: inline-block; 
+    background-color: #005f73; 
+    color: #ffffff; 
+    padding: 0.6rem 1.4rem; 
+    border-radius: 4px; 
+    text-decoration: none; 
+    margin-top: 0.5rem;
+}
+
+/* changes the background hue when a mouse interacts directly over button for email */
+.button:hover {
+    background-color: #004351;
+}
+
+/* Replacing standard circle list decorations across webpage */
+ul {
+    list-style-type: square; 
+    padding-left: 1.5rem; 
+}
+
+/* Expands individual items inside list */
+li {
+    margin-bottom: 0.5rem; 
+}
+
+/* Finishing footers*/
+.site-footer {
+    border-top: 1px solid #c9d6ea; 
+    text-align: center; 
+    padding: 2rem 1.5rem; 
+    color: #718096; 
+}
+
+/* finishing up */
+.site-footer p {
+    font-variant: small-caps; 
+    font-size: 0.85rem; 
+}
